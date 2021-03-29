@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<shortcuts>
+
+	<programGroup defaultName="MultiDoge"
+		location="applications" />
+
+	<shortcut name="MultiDoge ${project.version}"
+		programGroup="yes" desktop="yes" applications="no" startMenu="no"
+		startup="no" target="/usr/bin/java"
+		commandLine="-jar $INSTALL_PATH/multidoge-exe.jar"
+		initialState="normal" iconFile="$INSTALL_PATH/multidoge48.png"
+		workingDirectory="$INSTALL_PATH" type="Application" encoding="UTF-8"
+		description="MultiDoge ${project.version}">
+	</shortcut>
+	<shortcut name="Uninstall MultiDoge ${project.version}"
+		programGroup="yes" desktop="yes" applications="no" startMenu="no"
+		startup="no" target="/usr/bin/java"
+		commandLine="-jar $INSTALL_PATH/Uninstaller/uninstaller.jar"
+		initialState="normal" workingDirectory="$INSTALL_PATH"
+		type="Application" encoding="UTF-8"
+		description="Uninstall MultiDoge ${project.version}">
+	</shortcut>
+</shortcuts>
+

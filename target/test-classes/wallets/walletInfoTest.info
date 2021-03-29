@@ -1,0 +1,7 @@
+multiBit.info,1
+walletVersion,1
+receive,1NzESHfiazCbxwhTCg2jiTWcZgpSMKDKhy,myReceivingAddress%20label%2C%20text%20after%20comma%0A%20text%20after%20return
+send,1K9A6xh9wGZD1xNLBdxUSFNxtRFUsw5Z4n,mySendingAddress%20label%2C%20text%20after%20comma%0A%20text%20after%20return
+property,aProperty,aValue
+property,anotherProperty,anotherValue
+property,walletDescription,myDescription1%2C%20textAfterComma%0AtextAfterReturn
